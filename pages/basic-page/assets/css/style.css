@@ -10,7 +10,7 @@
 }
 
 .features {
-    width: 100dvw;
+    width: calc(100dvw -6rem);
     display: flex;
     flex-direction: column;
     height: fit-content;
