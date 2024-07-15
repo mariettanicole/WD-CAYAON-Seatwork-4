@@ -72,7 +72,7 @@ Technology Used
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - MultiPage Website
-- Features
+- Features Display
 - Layout Designs
 
 ### Technology
