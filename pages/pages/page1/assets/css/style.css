@@ -1,0 +1,77 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333333;
+}
+
+header {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5c9fda76aadd343de55159f8/1555787443393-JKCHN9C5EYOOCD316Z9R/Asics_Tablet.gif?format=2500w');
+    background-size: cover;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.shoes-section {
+    padding: 20px;
+}
+
+.shoe {
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.shoe img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-right: 1px solid #cccccc;
+}
+
+.shoe-info {
+    padding: 15px;
+    flex: 1;
+}
+
+.shoe-info h2 {
+    color: #ff0000b7;
+    margin-top: 0;
+}
+
+.shoe-info p {
+    color: #000000;
+}
+
+.buy-now {
+    text-align: left;
+    margin-top: 10px;
+
+}
+
+.home-button {
+    background-color: #B762C1;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin: 20px 0;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.home-button:hover {
+background-color: #8e3b8f;
+}
